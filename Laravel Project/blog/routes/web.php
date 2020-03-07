@@ -8,4 +8,10 @@ Route::get('/', function () {
 });
 
 
+Route::get('/hello',function(){
+    return "Hello World";
+});
 
+Route::get('/name',function(){
+    return "My Name is Rabbil hasan";
+});
