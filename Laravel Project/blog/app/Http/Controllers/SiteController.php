@@ -9,15 +9,13 @@ class SiteController extends Controller
    
         function Home(){
 
-            return "I am from SiteController Home Method";
+            return view('HomePage');
         }
-
         function About(){
-            return "I am from SiteController About Method";
+            return view('AboutPage');
         }
-
         function Contact(){
-            return "I am from SiteController Contact Method";
+            return view('ContactPage');
         }
 
 }
