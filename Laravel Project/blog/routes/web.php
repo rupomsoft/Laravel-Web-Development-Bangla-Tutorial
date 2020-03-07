@@ -2,16 +2,16 @@
 
 use Illuminate\Support\Facades\Route;
 
-
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/',function(){
+        return view('HomePage');
 });
 
 
-Route::get('/hello',function(){
-    return "Hello World";
+Route::get('/about',function(){
+    return view('AboutPage');
 });
 
-Route::get('/name',function(){
-    return "My Name is Rabbil hasan";
+Route::get('/contact',function(){
+    return view('ContactPage');
 });
+
