@@ -2,10 +2,4 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', 'SiteController@Home');
-
-
-Route::get('/about', 'SiteController@About');
-
-
-Route::get('/contact','SiteController@Contact');
+Route::get('/Name/{namevalue}','DemoController@MyName');
