@@ -8,5 +8,4 @@ Route::get('/', 'SiteController@Home');
 Route::get('/about', 'SiteController@About');
 
 
-
 Route::get('/contact','SiteController@Contact');
