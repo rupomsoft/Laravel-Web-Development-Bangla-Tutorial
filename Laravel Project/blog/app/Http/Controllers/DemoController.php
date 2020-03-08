@@ -8,8 +8,11 @@ class DemoController extends Controller
 {
 
 
-    function MyName($namevalue){
-       return $namevalue;
+    function MyName($firstName, $MiddleName,$lastName){
+       
+       
+       
+        return " First Name: ". $firstName . "<br> Middle Name:" .$MiddleName. "<br>Last Name: ". $lastName;
     }
 
 
