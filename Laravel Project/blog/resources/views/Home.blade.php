@@ -1,15 +1,11 @@
+@forelse($DataKey as $Country)
 
-<select>
+<li>{{$Country}}</li>
 
-@foreach($DataKey  as $CountryName )
+@empty
+<p>No Data Found</p>
 
-<option>{{$CountryName}}</option>
-
-@endforeach
-
-
-</select>
-
+@endforelse
 
 
 

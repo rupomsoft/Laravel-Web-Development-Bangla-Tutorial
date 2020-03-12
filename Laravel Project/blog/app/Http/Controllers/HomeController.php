@@ -9,7 +9,7 @@ class HomeController extends Controller
 
         function ShowHome(){
 
-            $Data=array("bangladesh","India","Canada","America");
+            $Data=array();
 
             return view('Home',['DataKey'=>$Data]);
         }
