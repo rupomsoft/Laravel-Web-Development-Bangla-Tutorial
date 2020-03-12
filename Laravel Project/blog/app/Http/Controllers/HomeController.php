@@ -9,8 +9,9 @@ class HomeController extends Controller
 
         function ShowHome(){
 
+            $NewsHeadLine="<script>alert('attack');</script>";
 
-            return view('Home');
+            return view('Home',['NewsHeadLineKey'=>$NewsHeadLine]);
         }
 
 }

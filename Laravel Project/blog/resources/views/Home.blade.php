@@ -1,1 +1,5 @@
-<h1>My First Blade View</h1>
+{{ $NewsHeadLineKey }}
+
+
+
+
