@@ -9,10 +9,8 @@ class HomeController extends Controller
 
         function ShowHome(){
 
-            $Data=array("bangladesh","India","Canada","America","Maldiv");
-            $LoginStatus=false;
-
-            return view('Home',['DataKey'=>$Data, 'LoginStatusKey'=>$LoginStatus]);
+       
+            return view('Home');
         }
 
 }
