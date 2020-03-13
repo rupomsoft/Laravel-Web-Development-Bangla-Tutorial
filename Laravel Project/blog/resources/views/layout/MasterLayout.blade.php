@@ -6,7 +6,11 @@
     <body>
 
 
-    <button class="btn btn-primary">@yield('buttonName')</button>
+        @yield('content')
+
+
+
+
 
 
 
