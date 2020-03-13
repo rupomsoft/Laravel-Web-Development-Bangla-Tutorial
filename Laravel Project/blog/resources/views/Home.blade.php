@@ -1,13 +1,11 @@
-@foreach($DataKey as $CountryName)
-
-@if($loop->last)
-{{$CountryName}}
-@break
-@endif
-
-@endforeach
+@php
 
 
+
+echo time();
+
+
+@endphp
 
 
 
