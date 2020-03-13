@@ -1,11 +1,15 @@
-@forelse($DataKey as $Country)
+@if($LoginStatusKey==true)
 
-<li>{{$Country}}</li>
+<h1>You Are Loged In</h1>
 
-@empty
-<p>No Data Found</p>
+@elseif($LoginStatusKey==false)
 
-@endforelse
+<h1>You Are Not Loged In</h1>
+
+@else
+<h1>Login Status Not Found</h1>
+
+@endif
 
 
 
