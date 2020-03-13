@@ -1,1 +1,1 @@
-@includeUnless(false,'subview.Menu')
+@extends('layout.MasterLayout')
